@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form autocomplete="off">
+        
+        <fieldset>
+            <legend>Registration Form</legend>
+            <figcaption>Enter Your Correct Detail</figcaption>
+            <br/>
+            <label for="first-name">FIRST NAME :</label>
+            <input type="text" name="first-name" placeholder="Enter Your First Name" autofocus required/>
+            <label for="last-name">LAST NAME :</label>
+            <input type="text" name="last-name" placeholder="Enter Your Last Name"/>
+            <br/><br/>
+            Date Of Birth : <input type="date" name="Date Of Birth">
+            Age : <input type="number" name="Age" value="" min="1" max="100" placeholder="Enter Your Age"/>
+            <br>
+            <br>
+            Gender : Male<input type="radio" name="Gender" value="Male"> Female<input type="radio" name="Gender" value="Female"/>
+            Country : <select required>
+                <option name="Country" value="Defaut">Select Country</option>
+                <option name="Country" value="India">India</option>
+                <option name="Country" value="U.S.A">U.S.A</option>
+                <option name="Country" value="Japan">Japan</option>
+                <option name="Country" value="Chennai">Chennai</option>
+            </select>
+            <br/>
+            <br/>
+            Hobbies : <input type="checkbox" name="Hobbies" value="Playing">Playing
+            <input type="checkbox" name="Hobbies" value="Dancing">Dancing
+            <input type="checkbox" name="Hobbies" value="Reading">Reading
+            <input type="checkbox" name="Hobbies" value="Cooking">Cooking
+            <input type="checkbox" name="Hobbies" value="Programming">Programming
+            <br><br>
+            <label for="Mobile no">Mobile No:</label>
+            <input type="tel" name="Mobile No" inputmode="numeric" maxlength="10" required/>
+            Email : <input type="email" name="email" placeholder="ex:myname@gmail.com">
+            <br/>
+            <br/>
+            New Password : <input type="password" name="password" required>
+            Confirm Password : <input type="password" name="password" required>
+            <br><br>
+            <input type="submit" name="submit" value="submitted"/>
+            <input type="reset" name="reset" value="reset"/>
+
+        </fieldset>
+    </form>
+</body>
+</html>
